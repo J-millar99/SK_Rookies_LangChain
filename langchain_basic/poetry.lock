@@ -548,6 +548,18 @@ files = [
 ]
 
 [[package]]
+name = "docx2txt"
+version = "0.9"
+description = "A pure python-based utility to extract text and images from docx files."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "docx2txt-0.9-py3-none-any.whl", hash = "sha256:e3718c0653fd6f2fcf4b51b02a61452ad1c38a4c163bcf0a6fd9486cd38f529a"},
+    {file = "docx2txt-0.9.tar.gz", hash = "sha256:18013f6229b14909028b19aa7bf4f8f3d6e4632d7b089ab29f7f0a4d1f660e28"},
+]
+
+[[package]]
 name = "faiss-cpu"
 version = "1.11.0"
 description = "A library for efficient similarity search and clustering of dense vectors."
@@ -4358,4 +4370,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12.4,<4.0"
-content-hash = "2af6f866cbfaffd20ed6a0e58b8cfae387c5942757efecdc651208073930be79"
+content-hash = "44e05160d319ce1a1cb23387817bf64884c9ae1c0cc800ed14e4cccae9fe07c0"
