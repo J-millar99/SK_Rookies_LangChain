@@ -83,7 +83,7 @@ if uploaded_file is not None:
 
     # LLM 정의
     # llm = ChatOllama(model="deepseek-r1:1.5b")
-    llm = ChatOllama(model="qwen2.5:1.5b")
+    llm = ChatOllama(model="qwen3:1.7b")
 
     # # 시스템 프롬프트 정의
     # system_prompt = (
