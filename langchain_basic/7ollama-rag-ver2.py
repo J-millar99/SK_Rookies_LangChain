@@ -8,6 +8,8 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.chains.retrieval import create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
 
+# streamlit run 7ollama-rag-ver2.py
+
 # =====================
 #  UI 스타일 설정
 # =====================
@@ -84,7 +86,7 @@ SYSTEM_PROMPT = (
 # =====================
 #  Streamlit UI
 # =====================
-st.title("DeepSeek R1 & Ollama 기반 RAG 시스템")
+st.title("Ollama 기반 RAG 시스템")
 
 # 파일 업로드
 uploaded_file = st.file_uploader("📄 PDF 파일을 업로드하세요", type="pdf")
